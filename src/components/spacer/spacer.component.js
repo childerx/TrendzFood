@@ -14,7 +14,7 @@ const positionVariant = {
   bottom: "marginBottom",
 };
 
-const getVariant = (posit, size, theme) => {
+const getVariant = (positi, size, theme) => {
   const sizeIndex = sizesVariant[size];
   const property = positionVariant[position];
   const value = theme.space[sizeIndex];
